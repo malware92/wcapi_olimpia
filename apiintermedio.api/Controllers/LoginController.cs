@@ -32,7 +32,7 @@ namespace apiintermedio.api.Controllers
                 var dato2 = api.GetApiHttpPost(path2, json2, "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjQ2NzdmNzRmLWI3ZDgtNGEyMC04ZDgyLWU2NTZmNjU5YmRmYyIsIm5iZiI6MTYxOTYyOTczOCwiZXhwIjoxNjE5NzE2MTM4LCJpYXQiOjE2MTk2Mjk3Mzh9.PdSKyJYJVjk5CTwR4Bi6kOV44DzbSidJE6dtEb6N7Eo");
                 string responseOlimpia2 = dato2;
                 var infoData = JsonConvert.DeserializeObject<string>(responseOlimpia2);
-                return Ok(responseOlimpia2);
+                return Ok(responseOlimpia);
             }
             catch (Exception ex)
             {

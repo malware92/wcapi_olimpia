@@ -8,5 +8,6 @@ namespace apiintermedio.entity.Entidades
 {
     public class fe_doc_contratogarantia
     {
+        public string nombreTest { get; set; }
     }
 }
